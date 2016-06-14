@@ -1,0 +1,15 @@
+{{!< layout/default}}
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">{[{message}]} (min: {[{magicNumber.start}]}, max: {[{magicNumber.end}]}, attempts left: {[{attempts}]})</div>
+        <div class="panel-body">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="userinput">Your guess</label>
+                    <input type="number" class="form-control" id="userinput" placeholder="Enter number" ng-model="userinput" ng-disabled="gameover">
+                </div>
+                <button type="button" class="btn btn-success" ng-click="testnumber()" ng-disabled="gameover">Try me!</button>
+            </form>
+        </div>
+    </div>
+</div>

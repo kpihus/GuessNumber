@@ -1,0 +1,23 @@
+{
+  "name": "guessnumber",
+  "description": "Just a little test app",
+  "main": "index.js",
+  "authors": [
+    "Kristjan Pihus"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kpihus/GuessNumber",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "bootstrap": "^3.3.6",
+    "angular-resource": "^1.5.6"
+  }
+}

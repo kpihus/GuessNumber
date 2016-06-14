@@ -1,0 +1,27 @@
+{
+  "name": "guessnumber",
+  "version": "0.0.1",
+  "description": "Just a little test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpihus/GuessNumber.git"
+  },
+  "author": "Kristjan Pihus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpihus/GuessNumber/issues"
+  },
+  "homepage": "https://github.com/kpihus/GuessNumber#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0",
+    "knex": "^0.11.5",
+    "mysql": "^2.11.1",
+    "vision": "^4.1.0"
+  }
+}
